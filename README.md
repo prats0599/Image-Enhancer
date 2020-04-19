@@ -15,4 +15,5 @@ encoder and decoder along with Perceptual loss or Feature loss as our loss funct
 ![Super Output1](images/SuperRes1.JPG) 
 ![Super Output2](images/SyperRes2.JPG) 
 ![Super Output3](images/SuperRes4.JPG) 
-![Super Output4](images/SuperRes3.JPG) 
+![Super Output4](images/SuperRes3.JPG)   
+Credits to Jeremy Howard and the fastai team!
