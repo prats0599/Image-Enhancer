@@ -11,7 +11,8 @@ when compared to the actual output that we want. Features such as eyes were not 
 ![Gan Output3](images/GAN3.JPG)  
 So we go about a different way in trying to enhance these images. We now use a Unet style architecture, using a Resnet34 model as the
 encoder and decoder along with Perceptual loss or Feature loss as our loss function. It has beem referenced from this paper on 
-[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155). After training for a while, it appears that we get really good results on using this model.
+[Perceptual Losses for Real-Time Style Transfer and Super-Resolution](https://arxiv.org/abs/1603.08155). After training for a while, it appears that we get really good results on using this model.  
+[The images on the left are different in resolution from the ones above because we used progressive resizing while training the unet and so these are the inputs to the model when performing inference.]
 ![Super Output1](images/SuperRes1.JPG) 
 ![Super Output2](images/SyperRes2.JPG) 
 ![Super Output3](images/SuperRes4.JPG) 
